@@ -20,6 +20,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -53,19 +55,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 2206}
+      Script: {instanceID: 2208}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2998}
     - Class: 114
-      Script: {instanceID: 3236}
+      Script: {instanceID: 3240}
     - Class: 114
-      Script: {instanceID: 4590}
+      Script: {instanceID: 4596}
     - Class: 114
-      Script: {instanceID: 5570}
+      Script: {instanceID: 5580}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -527,7 +529,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 156609acdf6a81b5f7a035ccc45f3110
+      Hash: 58c9124072422c82a6de6955a0b6a47a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -587,6 +589,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -624,4 +632,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/dev/Unity Projects/Defect/Builds/Windows/x86/Robo Escape.exe
+  playerPath: C:/dev/Unity Projects/robo-escape/Builds/Windows/x86/Robo Escape.exe

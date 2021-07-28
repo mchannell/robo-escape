@@ -11,6 +11,12 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         score = GetComponent<Text>();
+        // GameObject[] objectsInGame = (GameObject[]) GameObject.FindObjectsOfType(typeof(GameObject));
+        // foreach (GameObject objectInGame in objectsInGame) {
+        //     float easierRoundingNumX = (objectInGame.transform.position.x + .25f) * 2f;
+        //     float easierRoundingNumY = (objectInGame.transform.position.y + .25f) * 2f;
+        //     objectInGame.transform.position = new Vector3(Mathf.Round(easierRoundingNumX) / 2f - .25f, Mathf.Round(easierRoundingNumY) / 2f - .25f, 0f);
+        // }
     }
 
     // Update is called once per frame

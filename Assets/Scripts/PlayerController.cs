@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     bool isInteractPressed;
     bool isShutDownPressed;
     bool isButtonPressed;
-    public bool hasKey = false;
+    private bool hasKey = false;
     public MovementType movementType = MovementType.Queen;
     public enum MovementType {
         Rook, Bishop, Queen
@@ -60,9 +60,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("r")) {
-            Application.LoadLevel (Application.loadedLevel);
-        }
         if(isControlledByPlayer) {
             horizontalMove = Input.GetAxisRaw("Horizontal");
             verticalMove = Input.GetAxisRaw("Vertical");

@@ -303,7 +303,7 @@ public class PlayerController : MonoBehaviour
 
 /*      AI bad. Generally just use AIType.ShutDown and ignore this section of code, but maybe revisit later.
         Need to fix layermask stuff to make it more clean and make sure AI can't do broken things, but just leave it for now since I'm not really using it anyway.
-        Also need to make sure this stuff functions withthe new different movement types now that those are in.
+        Also need to make sure this stuff functions with the new different movement types now that those are in.
         I really just need to completely rewrite it if I ever wanted to try to do something with this again, but that's fine.
 */
 
